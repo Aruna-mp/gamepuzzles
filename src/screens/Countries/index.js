@@ -95,14 +95,7 @@ const Countries=()=>{
       <Text style={style.title}> Countries </Text>
            </View>
         </ScrollView>
-        {/* { storedValues.map((value, index) => (
         
-          <View style={style.rows}>
-          <View style={style.wbox}><Text key={index+1} style={style.gettext}>{value}</Text></View>
-          </View>
-   
-
-    ))} */}
        <FlatList 
        data={storedValues}
        horizontal
