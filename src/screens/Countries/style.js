@@ -47,9 +47,6 @@ const style=StyleSheet.create({
         height: width*.14,
         backgroundColor:color.green, 
         margin: 5,
-       
-        
-        
       
       },
       boxtext:{
@@ -71,7 +68,7 @@ const style=StyleSheet.create({
         width: width*.10,
         height: width*.10,
         backgroundColor:color.white, 
-         margin: 10,
+        margin: 10,
         borderColor:color.green,
         borderWidth:2,
         flexDirection:'row',
@@ -93,9 +90,10 @@ const style=StyleSheet.create({
           fontFamily:'Poppins-Bold',
           fontSize:16,
           color:color.black,
-          marginTop:10,
+          marginTop:9,
           padding:1,
-          flexDirection:'row'
+          flexDirection:'row',
+          marginLeft:10
 
         },
     

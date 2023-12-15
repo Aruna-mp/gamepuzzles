@@ -93,9 +93,10 @@ const style=StyleSheet.create({
           fontFamily:'Poppins-Bold',
           fontSize:16,
           color:color.black,
-          marginTop:10,
+          marginTop:9,
           padding:1,
-          flexDirection:'row'
+          flexDirection:'row',
+          marginLeft:10
 
         },
     
