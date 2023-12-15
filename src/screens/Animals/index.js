@@ -13,7 +13,8 @@ const Animals=()=>{
       setValue(NewValue);
       setStoredValues((prevValues) => [...prevValues, NewValue]);
       
-     
+    
+      
 
     }
     const handlePressH=()=>{
